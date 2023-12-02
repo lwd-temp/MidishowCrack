@@ -1,4 +1,14 @@
-﻿var Original_JZZ_MIDI_SMF = JZZ.MIDI.SMF;
+﻿// ==UserScript==
+// @name         MidishowCrack
+// @namespace    https://tampermonkey.net/
+// @version      1.0
+// @description  https://github.com/66hh/MidishowCrack
+// @author       You
+// @match        https://www.midishow.com/midi/*.html
+// @match        https://www.midishow.com/en/midi/*.html
+// @grant        none
+// ==/UserScript==
+var Original_JZZ_MIDI_SMF = JZZ.MIDI.SMF;
 JZZ.MIDI.SMF = function(Midi_File){
 	var Midi_File_Name = document.title.replace(" MIDI 音乐下载试听 :: MidiShow","") + ".mid"
 	var Midi_File_Binary_Array = new Uint8Array(Midi_File.length);
