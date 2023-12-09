@@ -4,8 +4,9 @@
 // @version      1.0
 // @description  https://github.com/66hh/MidishowCrack
 // @author       You
-// @match        https://www.midishow.com/midi/*.html
-// @match        https://www.midishow.com/en/midi/*.html
+// @match        https://www.midishow.com/midi/*
+// @match        https://www.midishow.com/zh-tw/midi/*
+// @match        https://www.midishow.com/en/midi/*
 // @grant        none
 // ==/UserScript==
 var Original_JZZ_MIDI_SMF = JZZ.MIDI.SMF;
