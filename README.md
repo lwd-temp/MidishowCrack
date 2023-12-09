@@ -1,4 +1,7 @@
 # MidishowCrack
 Midishow免积分脚本
-# 使用方法
-将midishow.js的内容复制到网页控制台（f12）并回车然后点播放按钮就会自动下载mid了
+
+基于 https://github.com/66hh/MidishowCrack
+
+## 使用方法
+安装脚本后，点播放按钮就会自动下载mid了。

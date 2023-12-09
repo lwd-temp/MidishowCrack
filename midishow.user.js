@@ -2,12 +2,13 @@
 // @name         MidishowCrack
 // @namespace    https://tampermonkey.net/
 // @version      1.0
-// @description  https://github.com/66hh/MidishowCrack
-// @author       You
+// @description  Midishow免积分脚本 基于 https://github.com/66hh/MidishowCrack
+// @author       https://github.com/lwd-temp/MidishowCrack
 // @match        https://www.midishow.com/midi/*
 // @match        https://www.midishow.com/zh-tw/midi/*
 // @match        https://www.midishow.com/en/midi/*
 // @grant        none
+// @license      BSD-3-Clause
 // ==/UserScript==
 var Original_JZZ_MIDI_SMF = JZZ.MIDI.SMF;
 JZZ.MIDI.SMF = function(Midi_File){
